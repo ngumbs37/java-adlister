@@ -6,10 +6,10 @@
     </jsp:include>
 </head>
 <body>
-    <jsp:include page="partials/navbar.jsp" />
+    <jsp:include page="partials/navbar-logged-in.jsp" />
 
     <div class="container">
-        <h1>Viewing your profile.</h1>
+        <h1>Welcome to your profile page, ${user}.</h1>
     </div>
 
 </body>
